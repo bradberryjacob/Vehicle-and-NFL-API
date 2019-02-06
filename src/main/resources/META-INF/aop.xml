@@ -1,0 +1,8 @@
+<aspectj>
+    <aspects>
+        <aspect name="DatabaseAspect"/>
+        <weaver options="-verbose -showWeaveInfo">
+            <include within="com.example.demo.*"/>
+        </weaver>
+    </aspects>
+</aspectj>
